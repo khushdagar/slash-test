@@ -1,13 +1,13 @@
-// src/app/page.tsx
 import Link from "next/link";
 
-export default function Home() {
+export default function About() {
   return (
     <main>
-      <h1>Welcome to Our Website!</h1>
+      <h1>About Us</h1>
+      <p>We are a small company providing excellent services.</p>
       <nav>
         <ul>
-          <li><Link href="/about">About Us</Link></li>
+          <li><Link href="/">Home</Link></li>
           <li><Link href="/contact">Contact Us</Link></li>
         </ul>
       </nav>
